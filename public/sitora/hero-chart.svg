@@ -1,0 +1,15 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="478.253" height="176" viewBox="0 0 478.253 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="SVG">
+<path id="Vector" d="M1.53341 143C58.1734 121 95.9334 154 152.573 93.5C209.213 33 246.973 104.5 303.613 55C360.253 5.5 398.013 44 473.533 22V176H1.53341V143" fill="url(#paint0_linear_0_8)"/>
+<path id="Vector_2" d="M1.53341 143C58.1734 121 95.9334 154 152.573 93.5C209.213 33 246.973 104.5 303.613 55C360.253 5.5 398.013 44 473.533 22" stroke-width="3.066" stroke-linecap="round" stroke="#2100BF"/>
+<path id="Vector_3" d="M148.797 93.5C148.797 95.9284 150.489 97.9 152.573 97.9C154.657 97.9 156.349 95.9284 156.349 93.5C156.349 91.0716 154.657 89.1 152.573 89.1C150.489 89.1 148.797 91.0716 148.797 93.5V93.5" fill="#FFBE4C"/>
+<path id="Vector_4" d="M299.837 55C299.837 57.4284 301.529 59.4 303.613 59.4C305.697 59.4 307.389 57.4284 307.389 55C307.389 52.5716 305.697 50.6 303.613 50.6C301.529 50.6 299.837 52.5716 299.837 55V55" fill="#FFBE4C"/>
+<path id="Vector_5" d="M468.813 22C468.813 25.0355 470.928 27.5 473.533 27.5C476.138 27.5 478.253 25.0355 478.253 22C478.253 18.9645 476.138 16.5 473.533 16.5C470.928 16.5 468.813 18.9645 468.813 22V22" fill="#2100BF"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_0_8" x1="1.53341" y1="22" x2="1.53341" y2="176" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2100BF" stop-opacity="0.3"/>
+<stop offset="1" stop-color="#2100BF" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>

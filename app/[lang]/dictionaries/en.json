@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "title": "Sitora — Websites & digital systems that grow your business",
+    "description": "Bespoke web platforms, unified business management tools, and automated operations — designed and engineered by senior specialists."
+  },
+  "header": {
+    "nav": { "services": "Services", "process": "Process", "projects": "Projects", "about": "About", "contact": "Contact" },
+    "cta": "Book a free consultation",
+    "account": "Account",
+    "language": "Language"
+  },
+  "hero": {
+    "titleStart": "We build websites and digital systems that",
+    "titleHighlight": "grow your business",
+    "lead": "Bespoke web platforms, unified business management tools, and automated operations tailored to your exact workflows. Designed and engineered by seasoned senior specialists — never outsourced, never boilerplate.",
+    "ctaPrimary": "Book a free consultation",
+    "ctaSecondary": "See our work",
+    "revenue": { "label": "Global revenue", "trend": "+28.4% this quarter" },
+    "pipeline": { "label": "Pipeline load", "status": "Active", "text": "42 automated workflows operating at latency <14ms" },
+    "chart": {
+      "title": "Operational Velocity & Ingestion",
+      "subtitle": "Real-time ERP manifest transactions across 18 nodes",
+      "live": "Live Stream",
+      "points": [
+        { "time": "08:00", "value": "1.2k req" },
+        { "time": "12:00", "value": "4.8k req" },
+        { "time": "16:00", "value": "8.1k req" },
+        { "time": "20:00", "value": "12.4k req" }
+      ]
+    },
+    "logs": {
+      "title": "Live system logs",
+      "items": [
+        { "title": "ERP Ledger Auto-Reconciled", "meta": "Tangier & Paris hubs • 2m ago" },
+        { "title": "Customs Manifest Approved", "meta": "Automated OCR scan • 5m ago" },
+        { "title": "Multilingual Cache Purged", "meta": "AR/FR edges synced • 11m ago" }
+      ]
+    },
+    "floats": [
+      { "title": "99.98% system uptime", "subtitle": "ISO 27001 Security Standard" },
+      { "title": "+42% efficiency gain", "subtitle": "Validated Post-Deployment" },
+      { "title": "100% in-house team", "subtitle": "Senior European & MENA Engineers" }
+    ],
+    "mobile": {
+      "title": "Executive Mobile",
+      "request": "Instant Approval Request",
+      "wire": "Wire #4982 • €140,000",
+      "approve": "Approve",
+      "review": "Review",
+      "auth": "TouchID Authenticated"
+    }
+  },
+  "services": {
+    "eyebrow": "Our core expertise",
+    "title": "Engineered for scale, speed, and business clarity",
+    "intro": "We replace legacy bottlenecks with unified web platforms and bespoke enterprise engines configured specifically to your team.",
+    "cards": [
+      {
+        "badge": "+68% Conversion Uplift",
+        "title": "Custom Website Development",
+        "body": "High-performance corporate portals, headless e-commerce, and bespoke web apps engineered with modern frameworks (Next.js, Tailwind, TypeScript).",
+        "items": [
+          "Lightning load times (<0.8s worldwide)",
+          "Architectural technical SEO structure",
+          "Sanity / Strapi decoupled CMS workflows",
+          "Edge cached global CDN distribution"
+        ],
+        "cta": "Explore custom web portals"
+      },
+      {
+        "badge": "3x Faster Data Access",
+        "title": "Business Management Solutions",
+        "body": "Custom CRM, ERP, executive analytics dashboards, and unified operations platforms built to replace fragmented SaaS subscriptions.",
+        "items": [
+          "Fine-grained role-based access control",
+          "Unified 360-degree customer insights",
+          "Multi-warehouse inventory & billing sync",
+          "Automated executive KPI report generator"
+        ],
+        "cta": "Discover ERP & CRM solutions"
+      },
+      {
+        "badge": "-18 Hours Weekly per Team",
+        "title": "Business Process Digitalization",
+        "body": "End-to-end workflow automation, paperless transition, and legacy system modernization with robust APIs and secure data bridges.",
+        "items": [
+          "Zero redundant manual data entry",
+          "Webhooks, REST & GraphQL integration pipes",
+          "Automated compliance & legal audit trails",
+          "Seamless migration from legacy spreadsheets"
+        ],
+        "cta": "Automate your workflows"
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Uncompromising quality",
+    "title": "Why fast-growing companies partner with Sitora",
+    "pillars": [
+      { "title": "Expert Senior Human Team", "body": "Every line of code and UI component is built by seasoned engineers and product designers. Zero junior handoffs or opaque outsourcing." },
+      { "title": "Tailored to Your Business", "body": "We do not force off-the-shelf templates. Architecture and workflows adapt precisely to your operational and financial reality." },
+      { "title": "Multilingual & RTL Ready", "body": "Native support for English, French, and Arabic (right-to-left) with localized date formats, multi-currency engines, and micro-typography." },
+      { "title": "Ongoing Support & Maintenance", "body": "Proactive 24/7 monitoring, zero-day security patches, performance tuning, and monthly feature iterations with ironclad SLAs." }
+    ],
+    "sprint": "Active sprint: core architecture",
+    "team": [
+      { "role": "Principal Cloud Architect", "status": "In Production" },
+      { "role": "Lead Design System Director", "status": "Reviewing UI" },
+      { "role": "Solutions Engineer", "status": "Deploying Edge" }
+    ],
+    "photoAlt": "Sitora engineers reviewing code together in the studio",
+    "caption": "Studio HQ • Direct human accountability on every sprint"
+  },
+  "process": {
+    "eyebrow": "Methodology",
+    "title": "From strategic clarity to flawless execution",
+    "intro": "A disciplined, milestone-driven framework designed to eliminate scope creep and deliver software that drives immediate balance sheet value.",
+    "steps": [
+      { "title": "Discovery", "body": "Deep dive into your operations, business bottlenecks, KPIs, and user journeys across departments.", "foot": ["Week 1-2 • Scope Audit"] },
+      { "title": "Strategy & Design", "body": "Interactive Figma prototypes, design systems, schema definitions, and cloud architecture blueprinting.", "foot": ["Week 2-4 • Prototypes"] },
+      { "title": "Development", "body": "Milestone-driven agile sprint delivery, clean test-driven codebase, and recorded weekly demo walkthroughs.", "foot": ["Sprints • CI/CD", "Continuous"] },
+      { "title": "Launch", "body": "Zero-downtime deployment, secure data migration, staff onboarding sessions, and speed audits.", "foot": ["Milestone • Cutover Plan"] },
+      { "title": "Support & Growth", "body": "Continuous proactive enhancement, infrastructure scaling, and monthly analytics and conversion tuning.", "foot": ["Ongoing • 24/7 SLA"] }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Case studies",
+    "title": "Proven results across high-stakes industries",
+    "cta": "Schedule an architecture review",
+    "items": [
+      {
+        "alt": "Kantara cross-border banking portal dashboard",
+        "tag": "FinTech",
+        "place": "Dubai & Paris",
+        "title": "Kantara Cross-Border Banking",
+        "body": "Custom corporate website paired with a multilingual, highly secure instant account opening portal built for Middle Eastern and European capital flows.",
+        "stats": [{ "value": "+74%", "label": "Account Creation Rate" }, { "value": "99.99%", "label": "Guaranteed SLA Uptime" }]
+      },
+      {
+        "alt": "Maison Solis luxury e-commerce storefront",
+        "tag": "E-Commerce",
+        "place": "Casablanca & Milan",
+        "title": "Maison Solis Luxury Retail",
+        "body": "Headless e-commerce platform and automated inventory synchronization across 12 international flagship boutiques with real-time stock allocation.",
+        "stats": [{ "value": "+45%", "label": "Online Orders Growth" }, { "value": "1.2s", "label": "Global Average Page Load" }]
+      },
+      {
+        "alt": "Atlas Trans-Logistics operations dashboard",
+        "tag": "Logistics",
+        "place": "Rotterdam & Tangier",
+        "title": "Atlas Trans-Logistics",
+        "body": "Custom ERP system digitizing 400+ fleet manifests and multi-jurisdiction customs clearances into a single real-time collaborative workspace.",
+        "stats": [{ "value": "-62%", "label": "Manifest Processing Time" }, { "value": "100%", "label": "Paperless Operation" }]
+      },
+      {
+        "alt": "MedCare diagnostic network patient portal",
+        "tag": "Healthcare",
+        "place": "Geneva",
+        "title": "MedCare Diagnostic Network",
+        "body": "HIPAA-ready patient appointment scheduling engine, automated SMS reminders, and encrypted lab result distribution hub across 14 clinics.",
+        "stats": [{ "value": "+120k", "label": "Active Patients" }, { "value": "4.9/5", "label": "User Satisfaction Score" }]
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Domain knowledge",
+    "title": "Industries we serve with deep specialization",
+    "items": [
+      "Retail & Luxury E-Commerce",
+      "Hospitality & Restaurants",
+      "Healthcare & Clinical Systems",
+      "Higher Education & EdTech",
+      "Supply Chain & Freight Logistics",
+      "Financial & Professional Advisory",
+      "Manufacturing & Operations"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Client voices",
+    "title": "Endorsed by executive leadership",
+    "stars": "5 out of 5 stars",
+    "items": [
+      {
+        "quote": "Sitora replaced three disjointed software subscriptions with a custom business management portal. Our team regained over 20 hours a week, and customer onboarding time dropped by half.",
+        "role": "COO, Kantara FinTech • France & UAE"
+      },
+      {
+        "quote": "Their dual mastery of European digital standards and Arabic RTL UX made our international rollout seamless. They are not vendors; they are true technical co-founders.",
+        "role": "MD, Atlas Logistics • Morocco & KSA"
+      },
+      {
+        "quote": "Working with dedicated human engineers who understand business metrics rather than just code syntax was a revelation. Our online revenue jumped 45% in the first quarter post-launch.",
+        "role": "Head of Digital, Maison Solis • Switzerland"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Project inquiry",
+    "title": "Tell us about your project",
+    "intro": "Schedule a confidential discovery session with our senior digital architects. We’ll analyze your workflows and provide actionable recommendations within 48 hours.",
+    "name": { "label": "Full Name *", "placeholder": "Sarah Jenkins" },
+    "email": { "label": "Work Email *", "placeholder": "sarah@enterprise.com" },
+    "company": { "label": "Company Name *", "placeholder": "Acme Logistics Ltd" },
+    "timeline": { "label": "Target Timeline", "options": ["Immediate (within 30 days)", "1 – 3 months", "3 – 6 months", "Flexible"] },
+    "serviceLegend": "Primary Service Needed",
+    "services": ["Custom Website", "ERP / CRM Tool", "Workflow Automation", "Full Transformation"],
+    "budget": { "label": "Estimated Budget Scope", "options": ["Under €20,000", "€20,000 – €50,000", "€50,000 – €150,000", "€150,000+"] },
+    "details": {
+      "label": "Project Details & Operational Context",
+      "placeholder": "Briefly describe what your organization aims to achieve, existing software systems, and key milestones..."
+    },
+    "submit": "Request Architecture Consultation",
+    "success": { "title": "Thank you — request received.", "body": "A senior architect will get back to you within 48 hours." },
+    "aside": {
+      "eyebrow": "Direct technical hotline",
+      "title": "Prefer instant messaging?",
+      "body": "Connect directly with our solutions advisory team over encrypted WhatsApp.",
+      "whatsapp": "Chat on WhatsApp (+33 1 89 20 44 10)",
+      "nda": "Strict mutual NDA executed prior to preliminary technical review."
+    }
+  },
+  "cta": {
+    "badge": "Human craftsmanship • Enterprise scale",
+    "title": "Ready to digitalize your business with human precision?",
+    "body": "Join forward-thinking companies that rely on Sitora for custom web infrastructure, unified business tools, and scalable automated processes.",
+    "primary": "Book your free consultation",
+    "secondary": "Explore Case Studies"
+  },
+  "footer": {
+    "tagline": "Custom websites, ERP & CRM systems, and business process automation crafted by expert humans for ambitious global enterprises.",
+    "cities": ["Paris", "Casablanca", "Dubai"],
+    "columns": [
+      { "title": "Services", "links": ["Custom Websites", "Web Applications", "ERP & CRM Systems", "Workflow Automation", "API & Legacy Migration"] },
+      { "title": "Company", "links": ["About Sitora", "Our Team", "Careers", "Case Studies", "Trust & Security"] },
+      { "title": "Resources", "links": ["Digital Transformation Guide", "ROI Calculator", "Tech Stack", "Insights & Journal"] }
+    ],
+    "legal": { "title": "Legal", "links": ["Privacy Policy", "Terms of Service", "Cookie Preferences"], "iso": "ISO 27001 Certified" },
+    "copyright": "© 2026 Sitora Digital Ltd. All rights reserved.",
+    "languages": "English, Français, العربية (RTL Ready)"
+  }
+}

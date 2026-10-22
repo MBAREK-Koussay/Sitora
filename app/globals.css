@@ -1,26 +1,76 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #f9f9f7;
+  --foreground: #1a1c1b;
+
+  --c-primary: #2100bf;
+  --c-primary-soft: #e2dfff;
+  --c-brand-mid: #3b2fd9;
+  --c-on-brand: #ffffff;
+  --c-accent: #ffbe4c;
+  --c-accent-soft: #ffdead;
+  --c-accent-ink: #281900;
+  --c-gold: #7f5700;
+  --c-badge-ink: #604100;
+  --c-ink: #1a1c1b;
+  --c-muted: #464555;
+  --c-surface: #f4f4f2;
+  --c-surface-2: #e8e8e6;
+  --c-canvas: #f9f9f7;
+  --c-card: #ffffff;
+  --c-track: #eeeeec;
+  --c-chip: #e2e3e1;
+  --c-dot: #c7c4d8;
+  --c-lilac: #c2c1ff;
+  --c-footer-bar: rgba(238, 238, 236, 0.6);
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--c-primary);
+  --color-primary-soft: var(--c-primary-soft);
+  --color-brand-mid: var(--c-brand-mid);
+  --color-on-brand: var(--c-on-brand);
+  --color-accent: var(--c-accent);
+  --color-accent-soft: var(--c-accent-soft);
+  --color-accent-ink: var(--c-accent-ink);
+  --color-gold: var(--c-gold);
+  --color-badge-ink: var(--c-badge-ink);
+  --color-ink: var(--c-ink);
+  --color-muted: var(--c-muted);
+  --color-surface: var(--c-surface);
+  --color-surface-2: var(--c-surface-2);
+  --color-canvas: var(--c-canvas);
+  --color-card: var(--c-card);
+  --color-track: var(--c-track);
+  --color-chip: var(--c-chip);
+  --color-dot: var(--c-dot);
+  --color-lilac: var(--c-lilac);
+  --color-footer-bar: var(--c-footer-bar);
+  --font-sans: var(--font-jakarta);
+  --font-display: var(--font-outfit);
+  --font-mono: "Liberation Mono", ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 96px;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-jakarta), system-ui, sans-serif;
+}
+
+/* Arabic: use Cairo for both text and display, and drop negative tracking (it breaks letter joins). */
+html[lang="ar"] {
+  --font-outfit: var(--font-cairo);
+  --font-jakarta: var(--font-cairo);
+}
+
+html[lang="ar"] * {
+  letter-spacing: 0 !important;
 }

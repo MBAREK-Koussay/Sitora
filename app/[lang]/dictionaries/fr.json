@@ -1,0 +1,241 @@
+{
+  "meta": {
+    "title": "Sitora — Sites web et systèmes digitaux qui font croître votre entreprise",
+    "description": "Plateformes web sur mesure, outils de gestion d’entreprise unifiés et opérations automatisées — conçus et développés par des spécialistes seniors."
+  },
+  "header": {
+    "nav": { "services": "Services", "process": "Méthode", "projects": "Projets", "about": "À propos", "contact": "Contact" },
+    "cta": "Réserver une consultation gratuite",
+    "account": "Compte",
+    "language": "Langue"
+  },
+  "hero": {
+    "titleStart": "Nous créons des sites web et des systèmes digitaux qui",
+    "titleHighlight": "font croître votre entreprise",
+    "lead": "Plateformes web sur mesure, outils de gestion unifiés et opérations automatisées adaptés à vos flux de travail exacts. Conçus et développés par des spécialistes seniors chevronnés — jamais sous-traités, jamais génériques.",
+    "ctaPrimary": "Réserver une consultation gratuite",
+    "ctaSecondary": "Voir nos réalisations",
+    "revenue": { "label": "Chiffre d’affaires global", "trend": "+28,4 % ce trimestre" },
+    "pipeline": { "label": "Charge du pipeline", "status": "Actif", "text": "42 workflows automatisés avec une latence <14 ms" },
+    "chart": {
+      "title": "Vélocité opérationnelle et ingestion",
+      "subtitle": "Transactions de manifestes ERP en temps réel sur 18 nœuds",
+      "live": "Flux en direct",
+      "points": [
+        { "time": "08:00", "value": "1,2k req" },
+        { "time": "12:00", "value": "4,8k req" },
+        { "time": "16:00", "value": "8,1k req" },
+        { "time": "20:00", "value": "12,4k req" }
+      ]
+    },
+    "logs": {
+      "title": "Journaux système en direct",
+      "items": [
+        { "title": "Grand livre ERP rapproché automatiquement", "meta": "Hubs Tanger et Paris • il y a 2 min" },
+        { "title": "Manifeste douanier approuvé", "meta": "Scan OCR automatisé • il y a 5 min" },
+        { "title": "Cache multilingue purgé", "meta": "Nœuds AR/FR synchronisés • il y a 11 min" }
+      ]
+    },
+    "floats": [
+      { "title": "99,98 % de disponibilité", "subtitle": "Norme de sécurité ISO 27001" },
+      { "title": "+42 % de gain d’efficacité", "subtitle": "Validé après déploiement" },
+      { "title": "100 % équipe interne", "subtitle": "Ingénieurs seniors européens et MENA" }
+    ],
+    "mobile": {
+      "title": "Mobile direction",
+      "request": "Demande d’approbation instantanée",
+      "wire": "Virement #4982 • 140 000 €",
+      "approve": "Approuver",
+      "review": "Examiner",
+      "auth": "Authentifié par TouchID"
+    }
+  },
+  "services": {
+    "eyebrow": "Notre expertise clé",
+    "title": "Conçu pour l’échelle, la vitesse et la clarté métier",
+    "intro": "Nous remplaçons les blocages hérités par des plateformes web unifiées et des moteurs d’entreprise sur mesure, configurés spécifiquement pour votre équipe.",
+    "cards": [
+      {
+        "badge": "+68 % de conversion",
+        "title": "Développement de sites web sur mesure",
+        "body": "Portails d’entreprise ultra-performants, e-commerce headless et applications web sur mesure construits avec des frameworks modernes (Next.js, Tailwind, TypeScript).",
+        "items": [
+          "Chargement ultra-rapide (<0,8 s dans le monde)",
+          "Structure SEO technique rigoureuse",
+          "Workflows CMS découplés Sanity / Strapi",
+          "Distribution CDN mondiale en cache edge"
+        ],
+        "cta": "Découvrir les portails web sur mesure"
+      },
+      {
+        "badge": "Accès aux données 3x plus rapide",
+        "title": "Solutions de gestion d’entreprise",
+        "body": "CRM et ERP sur mesure, tableaux de bord analytiques pour la direction et plateformes d’exploitation unifiées pour remplacer des abonnements SaaS fragmentés.",
+        "items": [
+          "Contrôle d’accès fin par rôles",
+          "Vision client unifiée à 360 degrés",
+          "Synchronisation stocks multi-entrepôts et facturation",
+          "Génération automatique de rapports KPI pour la direction"
+        ],
+        "cta": "Découvrir les solutions ERP et CRM"
+      },
+      {
+        "badge": "-18 heures par semaine et par équipe",
+        "title": "Digitalisation des processus métier",
+        "body": "Automatisation de bout en bout, transition vers le zéro papier et modernisation des systèmes hérités grâce à des API robustes et des ponts de données sécurisés.",
+        "items": [
+          "Zéro saisie manuelle redondante",
+          "Intégrations Webhooks, REST et GraphQL",
+          "Pistes d’audit juridiques et de conformité automatisées",
+          "Migration fluide depuis les anciens tableurs"
+        ],
+        "cta": "Automatisez vos flux de travail"
+      }
+    ]
+  },
+  "why": {
+    "eyebrow": "Qualité sans compromis",
+    "title": "Pourquoi les entreprises en forte croissance choisissent Sitora",
+    "pillars": [
+      { "title": "Une équipe senior 100 % humaine", "body": "Chaque ligne de code et chaque composant d’interface sont réalisés par des ingénieurs et designers produit chevronnés. Aucun passage de relais à des juniors, aucune sous-traitance opaque." },
+      { "title": "Adapté à votre activité", "body": "Nous n’imposons pas de modèles prêts à l’emploi. L’architecture et les workflows s’adaptent précisément à votre réalité opérationnelle et financière." },
+      { "title": "Multilingue et prêt pour le RTL", "body": "Prise en charge native de l’anglais, du français et de l’arabe (de droite à gauche) avec formats de date localisés, moteurs multidevises et micro-typographie." },
+      { "title": "Support et maintenance continus", "body": "Supervision proactive 24h/24 et 7j/7, correctifs de sécurité immédiats, optimisation des performances et évolutions mensuelles avec des SLA solides." }
+    ],
+    "sprint": "Sprint en cours : architecture cœur",
+    "team": [
+      { "role": "Architecte cloud principale", "status": "En production" },
+      { "role": "Directeur du design system", "status": "Revue de l’UI" },
+      { "role": "Ingénieur solutions", "status": "Déploiement edge" }
+    ],
+    "photoAlt": "Les ingénieurs Sitora relisent du code ensemble au studio",
+    "caption": "Siège du studio • Responsabilité humaine directe à chaque sprint"
+  },
+  "process": {
+    "eyebrow": "Méthodologie",
+    "title": "De la clarté stratégique à une exécution sans faille",
+    "intro": "Un cadre rigoureux, rythmé par des jalons, conçu pour éliminer les dérives de périmètre et livrer des logiciels qui créent immédiatement de la valeur.",
+    "steps": [
+      { "title": "Découverte", "body": "Analyse approfondie de vos opérations, de vos blocages métier, de vos KPI et des parcours utilisateurs entre départements.", "foot": ["Semaine 1-2 • Audit du périmètre"] },
+      { "title": "Stratégie et design", "body": "Prototypes Figma interactifs, design systems, définition des schémas et plans d’architecture cloud.", "foot": ["Semaine 2-4 • Prototypes"] },
+      { "title": "Développement", "body": "Livraison agile par sprints et jalons, code propre piloté par les tests et démos hebdomadaires enregistrées.", "foot": ["Sprints • CI/CD", "Continu"] },
+      { "title": "Lancement", "body": "Déploiement sans interruption, migration sécurisée des données, sessions de prise en main et audits de performance.", "foot": ["Jalon • Plan de bascule"] },
+      { "title": "Support et croissance", "body": "Améliorations proactives continues, mise à l’échelle de l’infrastructure et optimisation mensuelle des analyses et de la conversion.", "foot": ["Continu • SLA 24h/24 et 7j/7"] }
+    ]
+  },
+  "projects": {
+    "eyebrow": "Études de cas",
+    "title": "Des résultats prouvés dans des secteurs à fort enjeu",
+    "cta": "Planifier une revue d’architecture",
+    "items": [
+      {
+        "alt": "Tableau de bord du portail bancaire transfrontalier Kantara",
+        "tag": "FinTech",
+        "place": "Dubaï et Paris",
+        "title": "Kantara — Banque transfrontalière",
+        "body": "Site corporate sur mesure associé à un portail d’ouverture de compte instantanée, multilingue et hautement sécurisé, conçu pour les flux de capitaux entre le Moyen-Orient et l’Europe.",
+        "stats": [{ "value": "+74 %", "label": "Taux de création de comptes" }, { "value": "99,99 %", "label": "Disponibilité SLA garantie" }]
+      },
+      {
+        "alt": "Boutique en ligne de luxe Maison Solis",
+        "tag": "E-commerce",
+        "place": "Casablanca et Milan",
+        "title": "Maison Solis — Retail de luxe",
+        "body": "Plateforme e-commerce headless et synchronisation automatisée des stocks entre 12 boutiques phares internationales, avec allocation des stocks en temps réel.",
+        "stats": [{ "value": "+45 %", "label": "Croissance des commandes en ligne" }, { "value": "1,2 s", "label": "Temps de chargement moyen mondial" }]
+      },
+      {
+        "alt": "Tableau de bord des opérations d’Atlas Trans-Logistics",
+        "tag": "Logistique",
+        "place": "Rotterdam et Tanger",
+        "title": "Atlas Trans-Logistics",
+        "body": "Système ERP sur mesure numérisant plus de 400 manifestes de flotte et les dédouanements multi-juridictions dans un espace de travail collaboratif unique en temps réel.",
+        "stats": [{ "value": "-62 %", "label": "Temps de traitement des manifestes" }, { "value": "100 %", "label": "Opérations sans papier" }]
+      },
+      {
+        "alt": "Portail patient du réseau de diagnostic MedCare",
+        "tag": "Santé",
+        "place": "Genève",
+        "title": "MedCare — Réseau de diagnostic",
+        "body": "Moteur de prise de rendez-vous compatible HIPAA, rappels SMS automatisés et plateforme chiffrée de diffusion des résultats d’analyses dans 14 cliniques.",
+        "stats": [{ "value": "+120k", "label": "Patients actifs" }, { "value": "4,9/5", "label": "Score de satisfaction" }]
+      }
+    ]
+  },
+  "industries": {
+    "eyebrow": "Expertise sectorielle",
+    "title": "Les secteurs que nous servons avec une spécialisation poussée",
+    "items": [
+      "Commerce de détail et e-commerce de luxe",
+      "Hôtellerie et restauration",
+      "Santé et systèmes cliniques",
+      "Enseignement supérieur et EdTech",
+      "Supply chain et fret logistique",
+      "Conseil financier et professionnel",
+      "Industrie et opérations"
+    ]
+  },
+  "testimonials": {
+    "eyebrow": "Paroles de clients",
+    "title": "Plébiscité par les dirigeants",
+    "stars": "5 étoiles sur 5",
+    "items": [
+      {
+        "quote": "Sitora a remplacé trois abonnements logiciels disparates par un portail de gestion sur mesure. Notre équipe a retrouvé plus de 20 heures par semaine et le temps d’intégration des clients a été divisé par deux.",
+        "role": "Directrice des opérations, Kantara FinTech • France et EAU"
+      },
+      {
+        "quote": "Leur double maîtrise des standards numériques européens et de l’UX arabe RTL a rendu notre déploiement international fluide. Ce ne sont pas des prestataires, mais de véritables cofondateurs techniques.",
+        "role": "Directeur général, Atlas Logistics • Maroc et Arabie saoudite"
+      },
+      {
+        "quote": "Travailler avec des ingénieurs dédiés qui comprennent les indicateurs métier et pas seulement la syntaxe du code a été une révélation. Notre chiffre d’affaires en ligne a bondi de 45 % le premier trimestre après le lancement.",
+        "role": "Responsable digital, Maison Solis • Suisse"
+      }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Demande de projet",
+    "title": "Parlez-nous de votre projet",
+    "intro": "Planifiez une session de découverte confidentielle avec nos architectes digitaux seniors. Nous analyserons vos flux de travail et vous proposerons des recommandations concrètes sous 48 heures.",
+    "name": { "label": "Nom complet *", "placeholder": "Sarah Jenkins" },
+    "email": { "label": "E-mail professionnel *", "placeholder": "sarah@entreprise.com" },
+    "company": { "label": "Nom de l’entreprise *", "placeholder": "Acme Logistics SARL" },
+    "timeline": { "label": "Délai visé", "options": ["Immédiat (sous 30 jours)", "1 à 3 mois", "3 à 6 mois", "Flexible"] },
+    "serviceLegend": "Service principal recherché",
+    "services": ["Site web sur mesure", "Outil ERP / CRM", "Automatisation des workflows", "Transformation complète"],
+    "budget": { "label": "Budget estimé", "options": ["Moins de 20 000 €", "20 000 € – 50 000 €", "50 000 € – 150 000 €", "Plus de 150 000 €"] },
+    "details": {
+      "label": "Détails du projet et contexte opérationnel",
+      "placeholder": "Décrivez brièvement les objectifs de votre organisation, vos systèmes logiciels existants et les jalons clés..."
+    },
+    "submit": "Demander une consultation d’architecture",
+    "success": { "title": "Merci — demande bien reçue.", "body": "Un architecte senior vous répondra sous 48 heures." },
+    "aside": {
+      "eyebrow": "Ligne technique directe",
+      "title": "Vous préférez la messagerie instantanée ?",
+      "body": "Échangez directement avec notre équipe de conseil en solutions via WhatsApp chiffré.",
+      "whatsapp": "Discuter sur WhatsApp (+33 1 89 20 44 10)",
+      "nda": "Accord de confidentialité mutuel strict signé avant tout examen technique préliminaire."
+    }
+  },
+  "cta": {
+    "badge": "Savoir-faire humain • Échelle entreprise",
+    "title": "Prêt à digitaliser votre entreprise avec une précision humaine ?",
+    "body": "Rejoignez les entreprises visionnaires qui font confiance à Sitora pour leur infrastructure web sur mesure, leurs outils de gestion unifiés et leurs processus automatisés évolutifs.",
+    "primary": "Réservez votre consultation gratuite",
+    "secondary": "Découvrir les études de cas"
+  },
+  "footer": {
+    "tagline": "Sites web sur mesure, systèmes ERP et CRM et automatisation des processus métier, conçus par des experts humains pour des entreprises mondiales ambitieuses.",
+    "cities": ["Paris", "Casablanca", "Dubaï"],
+    "columns": [
+      { "title": "Services", "links": ["Sites web sur mesure", "Applications web", "Systèmes ERP et CRM", "Automatisation des workflows", "Migration d’API et d’anciens systèmes"] },
+      { "title": "Entreprise", "links": ["À propos de Sitora", "Notre équipe", "Carrières", "Études de cas", "Confiance et sécurité"] },
+      { "title": "Ressources", "links": ["Guide de la transformation digitale", "Calculateur de ROI", "Stack technique", "Analyses et journal"] }
+    ],
+    "legal": { "title": "Mentions légales", "links": ["Politique de confidentialité", "Conditions d’utilisation", "Préférences des cookies"], "iso": "Certifié ISO 27001" },
+    "copyright": "© 2026 Sitora Digital Ltd. Tous droits réservés.",
+    "languages": "English, Français, العربية (compatible RTL)"
+  }
+}
