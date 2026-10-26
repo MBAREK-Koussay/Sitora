@@ -4,7 +4,7 @@ import Icon from "./Icon";
 const PEOPLE = [
   { initials: "SB", name: "Sarah Benali", avatar: "bg-primary-soft text-primary" },
   { initials: "TA", name: "Tariq Al-Mansoor", avatar: "bg-accent-soft text-badge-ink" },
-  { initials: "CD", name: "Claire Dupont", avatar: "bg-lilac text-primary" },
+  { initials: "CD", name: "Claire Dupont", avatar: "bg-lilac text-ink" },
 ];
 
 export default function Testimonials({ dict }: { dict: Dictionary["testimonials"] }) {

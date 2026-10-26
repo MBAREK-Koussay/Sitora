@@ -30,7 +30,7 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         <Projects dict={dict.projects} />
         <Industries dict={dict.industries} />
         <Testimonials dict={dict.testimonials} />
-        <Contact dict={dict.contact} />
+        <Contact lang={lang} dict={dict.contact} />
         <CtaBanner dict={dict.cta} />
       </main>
       <Footer dict={dict.footer} />

@@ -7,7 +7,8 @@
     "nav": { "services": "Services", "process": "Process", "projects": "Projects", "about": "About", "contact": "Contact" },
     "cta": "Book a free consultation",
     "account": "Account",
-    "language": "Language"
+    "language": "Language",
+    "theme": "Toggle light / dark theme"
   },
   "hero": {
     "titleStart": "We build websites and digital systems that",
@@ -204,18 +205,20 @@
     "timeline": { "label": "Target Timeline", "options": ["Immediate (within 30 days)", "1 – 3 months", "3 – 6 months", "Flexible"] },
     "serviceLegend": "Primary Service Needed",
     "services": ["Custom Website", "ERP / CRM Tool", "Workflow Automation", "Full Transformation"],
-    "budget": { "label": "Estimated Budget Scope", "options": ["Under €20,000", "€20,000 – €50,000", "€50,000 – €150,000", "€150,000+"] },
     "details": {
       "label": "Project Details & Operational Context",
       "placeholder": "Briefly describe what your organization aims to achieve, existing software systems, and key milestones..."
     },
     "submit": "Request Architecture Consultation",
+    "sending": "Sending…",
+    "error": "Something went wrong and your request was not sent. Please try again or contact us on WhatsApp.",
+    "invalid": "Please check the required fields and enter a valid email address.",
     "success": { "title": "Thank you — request received.", "body": "A senior architect will get back to you within 48 hours." },
     "aside": {
       "eyebrow": "Direct technical hotline",
       "title": "Prefer instant messaging?",
       "body": "Connect directly with our solutions advisory team over encrypted WhatsApp.",
-      "whatsapp": "Chat on WhatsApp (+33 1 89 20 44 10)",
+      "whatsapp": "Chat on WhatsApp",
       "nda": "Strict mutual NDA executed prior to preliminary technical review."
     }
   },
@@ -231,8 +234,8 @@
     "cities": ["Paris", "Casablanca", "Dubai"],
     "columns": [
       { "title": "Services", "links": ["Custom Websites", "Web Applications", "ERP & CRM Systems", "Workflow Automation", "API & Legacy Migration"] },
-      { "title": "Company", "links": ["About Sitora", "Our Team", "Careers", "Case Studies", "Trust & Security"] },
-      { "title": "Resources", "links": ["Digital Transformation Guide", "ROI Calculator", "Tech Stack", "Insights & Journal"] }
+      { "title": "Company", "links": ["About Sitora", "Our Team", "Careers", "Case Studies", "Trust & Security"] }
+     
     ],
     "legal": { "title": "Legal", "links": ["Privacy Policy", "Terms of Service", "Cookie Preferences"], "iso": "ISO 27001 Certified" },
     "copyright": "© 2026 Sitora . All rights reserved.",

@@ -1,21 +1,27 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { startTransition, useActionState, useState, type FormEvent } from "react";
+import { submitConsultation } from "@/app/[lang]/actions";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
+import type { ConsultationState } from "@/app/lib/consultation";
+import type { Locale } from "@/app/lib/i18n";
 import Icon from "./Icon";
 
 const label = "text-sm font-semibold leading-5 tracking-[0.14px] text-ink";
 const field =
   "w-full rounded-xl bg-surface px-4 text-base text-ink placeholder:text-[#9ca3af] outline-none focus:ring-2 focus:ring-primary/40";
 
-export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
-  const [service, setService] = useState(0);
-  const [sent, setSent] = useState(false);
+const IDLE: ConsultationState = { status: "idle" };
 
+export default function Contact({ lang, dict }: { lang: Locale; dict: Dictionary["contact"] }) {
+  const [service, setService] = useState(0);
+  const [state, submit, pending] = useActionState(submitConsultation, IDLE);
+
+  // Submitted through startTransition (not <form action>) so React doesn't clear the fields when it fails.
   function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
-    // TODO: wire to a backend / email endpoint. For now just confirm to the visitor.
-    setSent(true);
+    const data = new FormData(e.currentTarget);
+    startTransition(() => submit(data));
   }
 
   return (
@@ -31,13 +37,17 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
 
         <div className="grid w-full grid-cols-1 items-start gap-12 lg:grid-cols-12">
           <div className="rounded-3xl bg-card p-6 drop-shadow-[0px_1px_1px_rgba(0,0,0,0.05)] sm:p-10 lg:col-span-7">
-            {sent ? (
+            {state.status === "success" ? (
               <div role="status" className="flex flex-col items-center gap-3 py-24 text-center">
                 <h3 className="font-display text-2xl font-semibold leading-8 text-ink">{dict.success.title}</h3>
                 <p className="text-muted">{dict.success.body}</p>
               </div>
             ) : (
               <form onSubmit={onSubmit} className="flex flex-col gap-6">
+                <input type="hidden" name="lang" value={lang} />
+                <input type="hidden" name="service" value={service} />
+                {/* Honeypot: hidden from people, tempting for bots. */}
+                <input type="text" name="website" tabIndex={-1} autoComplete="off" aria-hidden className="absolute -start-[9999px] size-0 opacity-0" />
                 <div className="grid grid-cols-1 gap-6 sm:grid-cols-2">
                   <div className="flex flex-col gap-2">
                     <label htmlFor="name" className={label}>{dict.name.label}</label>
@@ -54,7 +64,7 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
                   <div className="flex flex-col gap-2">
                     <label htmlFor="timeline" className={label}>{dict.timeline.label}</label>
                     <select id="timeline" name="timeline" className={`${field} h-12 ps-5`}>
-                      {dict.timeline.options.map((t) => <option key={t}>{t}</option>)}
+                      {dict.timeline.options.map((t, i) => <option key={t} value={i}>{t}</option>)}
                     </select>
                   </div>
                 </div>
@@ -79,13 +89,6 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
                 </fieldset>
 
                 <div className="flex flex-col gap-2">
-                  <label htmlFor="budget" className={label}>{dict.budget.label}</label>
-                  <select id="budget" name="budget" defaultValue={dict.budget.options[1]} className={`${field} h-12 ps-5`}>
-                    {dict.budget.options.map((b) => <option key={b}>{b}</option>)}
-                  </select>
-                </div>
-
-                <div className="flex flex-col gap-2">
                   <label htmlFor="details" className={label}>{dict.details.label}</label>
                   <textarea
                     id="details"
@@ -96,12 +99,19 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
                   />
                 </div>
 
+                {(state.status === "error" || state.status === "invalid") && (
+                  <p role="alert" className="rounded-xl bg-[#ffdad6] px-4 py-3 text-sm leading-[22px] text-[#93000a] dark:bg-[#93000a]/30 dark:text-[#ffb4ab]">
+                    {state.status === "error" ? dict.error : dict.invalid}
+                  </p>
+                )}
+
                 <button
                   type="submit"
-                  className="flex items-center justify-center gap-2 rounded-xl bg-accent py-4 text-sm font-bold leading-5 tracking-[0.14px] text-accent-ink drop-shadow-[0px_8px_12px_rgba(255,190,76,0.35)]"
+                  disabled={pending}
+                  className="flex items-center justify-center gap-2 rounded-xl bg-accent py-4 text-sm font-bold leading-5 tracking-[0.14px] text-accent-ink drop-shadow-[0px_8px_12px_rgba(255,190,76,0.35)] disabled:cursor-wait disabled:opacity-70"
                 >
-                  {dict.submit}
-                  <Icon name="contact-arrow.svg" width={12} />
+                  {pending ? dict.sending : dict.submit}
+                  {!pending && <Icon name="contact-arrow.svg" width={12} />}
                 </button>
               </form>
             )}
@@ -114,7 +124,7 @@ export default function Contact({ dict }: { dict: Dictionary["contact"] }) {
               <p className="text-sm leading-[22px] text-muted">{dict.aside.body}</p>
             </div>
             <a
-              href="https://wa.me/33189204410"
+              href="https://wa.me/21628037532"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-3 rounded-xl bg-surface-2 px-6 py-3.5 text-sm font-semibold leading-5 tracking-[0.14px] text-ink"
