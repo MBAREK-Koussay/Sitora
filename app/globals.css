@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
+/* Theme is driven by <html data-theme="light|dark">, set before first paint by the inline script in the layout. */
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 :root {
+  color-scheme: light;
   --background: #f9f9f7;
   --foreground: #1a1c1b;
 
@@ -24,6 +28,33 @@
   --c-dot: #c7c4d8;
   --c-lilac: #c2c1ff;
   --c-footer-bar: rgba(238, 238, 236, 0.6);
+}
+
+[data-theme="dark"] {
+  color-scheme: dark;
+  --background: #0f1110;
+  --foreground: #ecece9;
+
+  --c-primary: #9a90ff;
+  --c-primary-soft: #2b2670;
+  --c-brand-mid: #b9b1ff;
+  --c-on-brand: #0f1110;
+  --c-accent: #ffbe4c;
+  --c-accent-soft: #4a3510;
+  --c-accent-ink: #281900;
+  --c-gold: #f0b84a;
+  --c-badge-ink: #ffd9a0;
+  --c-ink: #ecece9;
+  --c-muted: #a9a8b8;
+  --c-surface: #181a19;
+  --c-surface-2: #242726;
+  --c-canvas: #0f1110;
+  --c-card: #1e2120;
+  --c-track: #2d302f;
+  --c-chip: #34373a;
+  --c-dot: #4a4a5c;
+  --c-lilac: #3a3590;
+  --c-footer-bar: rgba(36, 39, 38, 0.6);
 }
 
 @theme inline {
@@ -63,6 +94,7 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: var(--font-jakarta), system-ui, sans-serif;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 /* Arabic: use Cairo for both text and display, and drop negative tracking (it breaks letter joins). */

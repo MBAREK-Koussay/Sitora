@@ -24,6 +24,9 @@ const cairo = Cairo({
   weight: ["400", "500", "600", "700"],
 });
 
+// Runs before first paint so there is no flash of the wrong theme.
+const themeScript = `(function(){try{var t=localStorage.getItem("theme");if(t!=="light"&&t!=="dark"){t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"}document.documentElement.dataset.theme=t}catch(e){}})()`;
+
 export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
 }
@@ -43,8 +46,12 @@ export default async function RootLayout({ children, params }: LayoutProps<"/[la
     <html
       lang={lang}
       dir={dirOf(lang)}
+      suppressHydrationWarning
       className={`${outfit.variable} ${jakarta.variable} ${cairo.variable} h-full antialiased`}
     >
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: themeScript }} />
+      </head>
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
   );

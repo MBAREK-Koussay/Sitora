@@ -4,6 +4,7 @@ import Link from "next/link";
 import { LOCALE_COOKIE, locales, type Locale } from "@/app/lib/i18n";
 import type { Dictionary } from "@/app/[lang]/dictionaries";
 import Icon from "./Icon";
+import ThemeToggle from "./ThemeToggle";
 
 type Props = { lang: Locale; dict: Dictionary["header"] };
 
@@ -24,7 +25,6 @@ export default function Header({ lang, dict }: Props) {
     <header className="sticky top-0 z-50 bg-card/85 shadow-[0px_4px_24px_-4px_rgba(15,17,26,0.06)] backdrop-blur-[12px]">
       <div className="mx-auto flex h-20 max-w-[1280px] items-center justify-between gap-4 px-6 lg:px-12">
         <a href="#" className="flex items-center gap-3">
-          <Icon name="logo.png" width={32} height={32} />
           <span className="font-display text-2xl font-bold leading-8 tracking-[-0.6px] text-primary">
             Sitora
           </span>
@@ -63,6 +63,7 @@ export default function Header({ lang, dict }: Props) {
               </Link>
             ))}
           </div>
+          <ThemeToggle label={dict.theme} />
           <a
             href="#contact"
             className="hidden rounded-xl bg-accent px-5 py-2.5 text-sm font-semibold leading-5 tracking-[0.14px] text-accent-ink drop-shadow-[0px_4px_8px_rgba(255,190,76,0.35)] md:block"
